@@ -2,8 +2,9 @@
 
 int main(){
 	int i = 0;
-	for (i=0; i<11; i++){
+	while (i<11){
 	printf("Hello World!\n");
+	i++;
 	}
 	return 0;
 }
